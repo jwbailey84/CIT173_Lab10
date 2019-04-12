@@ -1,0 +1,234 @@
+Apr 11 19:49:46 localhost systemd[1357]: pulseaudio.service: Failed with result 'exit-code'.
+Apr 11 19:49:46 localhost systemd[1357]: at-spi-dbus-bus.service: Failed with result 'exit-code'.
+Apr 11 19:49:48 localhost kernel: kauditd_printk_skb: 4 callbacks suppressed
+Apr 11 19:49:48 localhost kernel: systemd-shutdow: 30 output lines suppressed due to ratelimiting
+Apr 11 19:52:03 localhost kernel: core: CPUID marked event: 'cpu cycles' unavailable
+Apr 11 19:52:03 localhost kernel: core: CPUID marked event: 'instructions' unavailable
+Apr 11 19:52:03 localhost kernel: core: CPUID marked event: 'bus cycles' unavailable
+Apr 11 19:52:03 localhost kernel: core: CPUID marked event: 'cache references' unavailable
+Apr 11 19:52:03 localhost kernel: core: CPUID marked event: 'cache misses' unavailable
+Apr 11 19:52:03 localhost kernel: core: CPUID marked event: 'branch instructions' unavailable
+Apr 11 19:52:03 localhost kernel: core: CPUID marked event: 'branch misses' unavailable
+Apr 11 19:52:03 localhost kernel: pmd_set_huge: Cannot satisfy [mem 0xf0000000-0xf0200000] with a huge-page mapping due to MTRR override.
+Apr 11 19:52:04 localhost kernel: sd 2:0:0:0: [sda] Assuming drive cache: write through
+Apr 11 19:52:04 localhost kernel: sd 2:0:1:0: [sdb] Assuming drive cache: write through
+Apr 11 19:52:04 localhost kernel: sd 2:0:2:0: [sdc] Assuming drive cache: write through
+Apr 11 19:52:06 localhost kernel: systemd: 15 output lines suppressed due to ratelimiting
+Apr 11 19:52:07 localhost kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Apr 11 19:52:07 localhost kernel: kauditd_printk_skb: 55 callbacks suppressed
+Apr 11 19:52:08 localhost avahi-daemon[747]: System host name is set to 'localhost'. This is not a suitable mDNS host name, looking for alternatives.
+Apr 11 19:52:09 localhost journal[734]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to /dev/sr0: ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Apr 11 19:52:10 localhost journal[734]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to /dev/sr0: ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Apr 11 19:52:12 localhost systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+Apr 11 19:52:13 localhost org.gnome.Shell.desktop[1097]: glamor: No eglstream capable devices found
+Apr 11 19:52:13 localhost org.gnome.Shell.desktop[1097]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 11 19:52:13 localhost org.gnome.Shell.desktop[1097]: > Warning:          Unsupported high keycode 372 for name <I372> ignored
+Apr 11 19:52:13 localhost org.gnome.Shell.desktop[1097]: >                   X11 cannot support keycodes above 255.
+Apr 11 19:52:13 localhost org.gnome.Shell.desktop[1097]: >                   This warning only shows for the first high keycode.
+Apr 11 19:52:13 localhost org.gnome.Shell.desktop[1097]: Errors from xkbcomp are not fatal to the X server
+Apr 11 19:52:14 localhost journal[1097]: g_dir_open_with_errno: assertion 'path != NULL' failed
+Apr 11 19:52:14 localhost journal[1097]: g_filename_to_utf8: assertion 'opsysstring != NULL' failed
+Apr 11 19:52:14 localhost journal[1097]: g_dir_open_with_errno: assertion 'path != NULL' failed
+Apr 11 19:52:14 localhost journal[1097]: g_filename_to_utf8: assertion 'opsysstring != NULL' failed
+Apr 11 19:52:15 localhost spice-vdagent[1248]: Cannot access vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0
+Apr 11 19:52:15 localhost gnome-session-binary[1074]: WARNING: App 'spice-vdagent.desktop' exited with code 1
+Apr 11 19:52:15 localhost journal[1097]: Unable to connect to ibus: Could not connect: Connection refused
+Apr 11 19:52:15 localhost org.gnome.Shell.desktop[1097]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 11 19:52:15 localhost org.gnome.Shell.desktop[1097]: > Warning:          Unsupported maximum keycode 374, clipping.
+Apr 11 19:52:15 localhost org.gnome.Shell.desktop[1097]: >                   X11 cannot support keycodes above 255.
+Apr 11 19:52:15 localhost org.gnome.Shell.desktop[1097]: > Warning:          Unsupported high keycode 372 for name <I372> ignored
+Apr 11 19:52:15 localhost org.gnome.Shell.desktop[1097]: >                   X11 cannot support keycodes above 255.
+Apr 11 19:52:15 localhost org.gnome.Shell.desktop[1097]: >                   This warning only shows for the first high keycode.
+Apr 11 19:52:15 localhost org.gnome.Shell.desktop[1097]: Errors from xkbcomp are not fatal to the X server
+Apr 11 19:52:16 localhost kernel: [drm:vmw_stdu_crtc_page_flip [vmwgfx]] *ERROR* Page flip error -16.
+Apr 11 19:52:16 localhost journal[1097]: Failed to flip: Device or resource busy
+Apr 11 19:52:17 localhost journal[1343]: failed to get edid data: EDID length is too small
+Apr 11 19:52:17 localhost journal[1218]: failed to get edid: unable to get EDID for output
+Apr 11 19:52:17 localhost journal[1218]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Apr 11 19:52:17 localhost journal[1218]: failed to get edid: unable to get EDID for output
+Apr 11 19:52:17 localhost journal[1218]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Apr 11 19:52:06 localhost chronyd[770]: System clock wrong by -11.124665 seconds, adjustment started
+Apr 11 19:52:06 localhost chronyd[770]: System clock was stepped by -11.124785 seconds
+Apr 11 19:52:06 localhost rsyslogd[736]: imjournal: sd_journal_get_cursor() failed: Cannot assign requested address [v8.39.0]
+Apr 11 19:52:21 localhost org.gnome.Shell.desktop[1472]: glamor: No eglstream capable devices found
+Apr 11 19:52:21 localhost org.gnome.Shell.desktop[1472]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 11 19:52:21 localhost org.gnome.Shell.desktop[1472]: > Warning:          Unsupported high keycode 372 for name <I372> ignored
+Apr 11 19:52:21 localhost org.gnome.Shell.desktop[1472]: >                   X11 cannot support keycodes above 255.
+Apr 11 19:52:21 localhost org.gnome.Shell.desktop[1472]: >                   This warning only shows for the first high keycode.
+Apr 11 19:52:21 localhost org.gnome.Shell.desktop[1472]: Errors from xkbcomp are not fatal to the X server
+Apr 11 19:52:21 localhost journal[1472]: g_dir_open_with_errno: assertion 'path != NULL' failed
+Apr 11 19:52:21 localhost journal[1472]: g_filename_to_utf8: assertion 'opsysstring != NULL' failed
+Apr 11 19:52:21 localhost journal[1472]: g_dir_open_with_errno: assertion 'path != NULL' failed
+Apr 11 19:52:21 localhost journal[1472]: g_filename_to_utf8: assertion 'opsysstring != NULL' failed
+Apr 11 19:52:22 localhost journal[1605]: GoaKerberosIdentityManager: Using polling for change notification for credential cache type 'KCM'
+Apr 11 19:52:22 localhost spice-vdagent[1638]: Cannot access vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0
+Apr 11 19:52:22 localhost journal[1616]: Error setting up rfkill: Could not open RFKILL control device, please verify your installation
+Apr 11 19:52:22 localhost gnome-session-binary[1391]: WARNING: App 'spice-vdagent.desktop' exited with code 1
+Apr 11 19:52:22 localhost journal[1619]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 11 19:52:23 localhost journal[1472]: Object St.Widget (0x56509ce5a3a0), has been already deallocated — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: == Stack trace for context 0x56509b12f1b0 ==
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: #0   56509b5201f8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f7f38f33700 @ 15)
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: #1   7ffe0ed00180 b   self-hosted:261 (7f7f3a2c1dc0 @ 223)
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: #2   56509b520178 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7f7f38f33670 @ 17)
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: #3   56509b5200f8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:225 (7f7f38f33550 @ 10)
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: #4   7ffe0ed012c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (7f7f3a2c18b0 @ 386)
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: #5   56509b520040 i   resource:///org/gnome/shell/ui/layout.js:655 (7f7f39f04670 @ 533)
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: #6   7ffe0ed021c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (7f7f3a2b0b80 @ 71)
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: #7   56509b51ffc0 i   resource:///org/gnome/shell/ui/layout.js:600 (7f7f39f045e0 @ 90)
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: #8   7ffe0ed03160 b   resource:///org/gnome/gjs/modules/signals.js:128 (7f7f3a2c18b0 @ 386)
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: #9   56509b51ff40 i   resource:///org/gnome/shell/ui/background.js:522 (7f7f39f0bdc0 @ 17)
+Apr 11 19:52:23 localhost journal[1472]: clutter_actor_destroy: assertion 'CLUTTER_IS_ACTOR (self)' failed
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: > Warning:          Unsupported maximum keycode 374, clipping.
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: >                   X11 cannot support keycodes above 255.
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: > Warning:          Unsupported high keycode 372 for name <I372> ignored
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: >                   X11 cannot support keycodes above 255.
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: >                   This warning only shows for the first high keycode.
+Apr 11 19:52:23 localhost org.gnome.Shell.desktop[1472]: Errors from xkbcomp are not fatal to the X server
+Apr 11 19:52:24 localhost kernel: [drm:vmw_stdu_crtc_page_flip [vmwgfx]] *ERROR* Page flip error -16.
+Apr 11 19:52:24 localhost journal[1472]: Failed to flip: Device or resource busy
+Apr 11 19:52:24 localhost journal[1648]: failed to get edid: unable to get EDID for output
+Apr 11 19:52:25 localhost journal[1218]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Apr 11 19:52:25 localhost vmware-user.desktop[1840]: vmware-user: could not open /proc/fs/vmblock/dev
+Apr 11 19:52:25 localhost vmware-user.desktop[1840]: vmware-user: could not open uinput device
+Apr 11 19:52:25 localhost journal[1648]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Apr 11 19:52:26 localhost libcanberra-login-sound.desktop[1837]: Failed to play sound: File or data not found
+Apr 11 19:52:26 localhost journal[1831]: Failed to load /usr/lib64/gs-plugins-12/libgs_plugin_rpm-ostree.so: failed to open plugin /usr/lib64/gs-plugins-12/libgs_plugin_rpm-ostree.so: libdnf.so.1: cannot open shared object file: No such file or directory
+Apr 11 19:52:26 localhost journal[1472]: STACK_OP_ADD: window 0x1800001 already in stack
+Apr 11 19:52:26 localhost journal[1472]: STACK_OP_ADD: window 0x1800001 already in stack
+Apr 11 19:52:26 localhost journal[1849]: gtk_disable_setlocale() must be called before gtk_init()
+Apr 11 19:52:26 localhost abrt-applet.desktop[1858]: abrt-applet: Can't connect to system DBus: Error calling StartServiceByName for org.freedesktop.problems: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ExecFailed: Failed to execute program org.freedesktop.problems: Permission denied
+Apr 11 19:52:27 localhost journal[1831]: plugin appstream took 1.1 seconds to do setup
+Apr 11 19:52:31 localhost gnome-session-binary[1074]: WARNING: Application 'org.gnome.SettingsDaemon.Housekeeping.desktop' killed by signal 15
+Apr 11 19:52:31 localhost gnome-session-binary[1074]: WARNING: Application 'org.gnome.SettingsDaemon.Mouse.desktop' killed by signal 15
+Apr 11 19:52:31 localhost gnome-session-binary[1074]: WARNING: Application 'org.gnome.SettingsDaemon.PrintNotifications.desktop' killed by signal 15
+Apr 11 19:52:31 localhost gnome-session-binary[1074]: WARNING: Application 'org.gnome.SettingsDaemon.Rfkill.desktop' killed by signal 15
+Apr 11 19:52:31 localhost gnome-session-binary[1074]: WARNING: Application 'org.gnome.SettingsDaemon.ScreensaverProxy.desktop' killed by signal 15
+Apr 11 19:52:31 localhost journal[1097]: Connection to xwayland lost
+Apr 11 19:52:31 localhost journal[1165]: GChildWatchSource: Exit status of a child process was requested but ECHILD was received by waitpid(). See the documentation of g_child_watch_source_new() for possible causes.
+Apr 11 19:52:31 localhost systemd[991]: at-spi-dbus-bus.service: Failed with result 'exit-code'.
+Apr 11 19:52:33 localhost journal[1831]: Only 0 apps for recent list, hiding
+Apr 11 19:52:49 localhost journal[2021]: backend-store.vala:434: Error preparing Backend 'telepathy': The name org.freedesktop.Telepathy.AccountManager was not provided by any .service files
+Apr 11 19:52:50 localhost journal[2035]: g_variant_new_string: assertion 'string != NULL' failed
+Apr 11 19:52:50 localhost journal[2035]: g_variant_new_string: assertion 'string != NULL' failed
+Apr 11 19:52:50 localhost journal[2035]: g_variant_new_string: assertion 'string != NULL' failed
+Apr 11 19:52:50 localhost journal[2035]: g_variant_new_string: assertion 'string != NULL' failed
+Apr 11 19:52:50 localhost journal[2035]: g_variant_new_string: assertion 'string != NULL' failed
+Apr 11 19:52:50 localhost journal[2035]: g_variant_new_string: assertion 'string != NULL' failed
+Apr 11 19:52:50 localhost journal[2035]: g_variant_new_string: assertion 'string != NULL' failed
+Apr 11 19:53:30 localhost chronyd[770]: Forward time jump detected!
+Apr 11 19:55:21 localhost org.gnome.Shell.desktop[1472]: Window manager warning: last_user_time (188392) is greater than comparison timestamp (188359).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Apr 11 19:55:21 localhost org.gnome.Shell.desktop[1472]: Window manager warning: W1 (user@local) appears to be one of the offending windows with a timestamp of 188392.  Working around...
+Apr 11 19:55:32 localhost chronyd[770]: System clock wrong by -11.536069 seconds, adjustment started
+Apr 11 19:55:32 localhost chronyd[770]: System clock was stepped by -11.537737 seconds
+Apr 11 19:56:52 localhost chronyd[770]: Forward time jump detected!
+Apr 11 19:59:05 localhost chronyd[770]: System clock wrong by -11.552345 seconds, adjustment started
+Apr 11 20:01:10 localhost systemd[1364]: pulseaudio.service: Failed with result 'exit-code'.
+Apr 11 20:01:10 localhost systemd[1364]: at-spi-dbus-bus.service: Failed with result 'exit-code'.
+Apr 11 20:01:13 localhost kernel: kauditd_printk_skb: 4 callbacks suppressed
+Apr 11 20:01:13 localhost kernel: systemd-shutdow: 30 output lines suppressed due to ratelimiting
+Apr 11 20:01:30 localhost kernel: core: CPUID marked event: 'cpu cycles' unavailable
+Apr 11 20:01:30 localhost kernel: core: CPUID marked event: 'instructions' unavailable
+Apr 11 20:01:30 localhost kernel: core: CPUID marked event: 'bus cycles' unavailable
+Apr 11 20:01:30 localhost kernel: core: CPUID marked event: 'cache references' unavailable
+Apr 11 20:01:30 localhost kernel: core: CPUID marked event: 'cache misses' unavailable
+Apr 11 20:01:30 localhost kernel: core: CPUID marked event: 'branch instructions' unavailable
+Apr 11 20:01:30 localhost kernel: core: CPUID marked event: 'branch misses' unavailable
+Apr 11 20:01:30 localhost kernel: pmd_set_huge: Cannot satisfy [mem 0xf0000000-0xf0200000] with a huge-page mapping due to MTRR override.
+Apr 11 20:01:31 localhost kernel: sd 2:0:0:0: [sda] Assuming drive cache: write through
+Apr 11 20:01:31 localhost kernel: sd 2:0:1:0: [sdb] Assuming drive cache: write through
+Apr 11 20:01:31 localhost kernel: sd 2:0:2:0: [sdc] Assuming drive cache: write through
+Apr 11 20:01:33 localhost kernel: systemd: 15 output lines suppressed due to ratelimiting
+Apr 11 20:01:33 localhost kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Apr 11 20:01:35 localhost avahi-daemon[728]: System host name is set to 'localhost'. This is not a suitable mDNS host name, looking for alternatives.
+Apr 11 20:01:35 localhost journal[743]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to /dev/sr0: ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Apr 11 20:01:36 localhost journal[743]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to /dev/sr0: ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Apr 11 20:01:38 localhost systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+Apr 11 20:01:38 localhost org.gnome.Shell.desktop[1062]: glamor: No eglstream capable devices found
+Apr 11 20:01:38 localhost org.gnome.Shell.desktop[1062]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 11 20:01:38 localhost org.gnome.Shell.desktop[1062]: > Warning:          Unsupported high keycode 372 for name <I372> ignored
+Apr 11 20:01:38 localhost org.gnome.Shell.desktop[1062]: >                   X11 cannot support keycodes above 255.
+Apr 11 20:01:38 localhost org.gnome.Shell.desktop[1062]: >                   This warning only shows for the first high keycode.
+Apr 11 20:01:38 localhost org.gnome.Shell.desktop[1062]: Errors from xkbcomp are not fatal to the X server
+Apr 11 20:01:39 localhost journal[1062]: g_dir_open_with_errno: assertion 'path != NULL' failed
+Apr 11 20:01:39 localhost journal[1062]: g_filename_to_utf8: assertion 'opsysstring != NULL' failed
+Apr 11 20:01:39 localhost journal[1062]: g_dir_open_with_errno: assertion 'path != NULL' failed
+Apr 11 20:01:39 localhost journal[1062]: g_filename_to_utf8: assertion 'opsysstring != NULL' failed
+Apr 11 20:01:40 localhost spice-vdagent[1208]: Cannot access vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0
+Apr 11 20:01:40 localhost gnome-session-binary[1032]: WARNING: App 'spice-vdagent.desktop' exited with code 1
+Apr 11 20:01:40 localhost org.gnome.Shell.desktop[1062]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 11 20:01:40 localhost org.gnome.Shell.desktop[1062]: > Warning:          Unsupported maximum keycode 374, clipping.
+Apr 11 20:01:40 localhost org.gnome.Shell.desktop[1062]: >                   X11 cannot support keycodes above 255.
+Apr 11 20:01:40 localhost org.gnome.Shell.desktop[1062]: > Warning:          Unsupported high keycode 372 for name <I372> ignored
+Apr 11 20:01:40 localhost org.gnome.Shell.desktop[1062]: >                   X11 cannot support keycodes above 255.
+Apr 11 20:01:40 localhost org.gnome.Shell.desktop[1062]: >                   This warning only shows for the first high keycode.
+Apr 11 20:01:40 localhost org.gnome.Shell.desktop[1062]: Errors from xkbcomp are not fatal to the X server
+Apr 11 20:01:41 localhost journal[1062]: Failed to flip: Device or resource busy
+Apr 11 20:01:41 localhost kernel: [drm:vmw_stdu_crtc_page_flip [vmwgfx]] *ERROR* Page flip error -16.
+Apr 11 20:01:41 localhost journal[1296]: failed to get edid data: EDID length is too small
+Apr 11 20:01:41 localhost journal[1181]: failed to get edid: unable to get EDID for output
+Apr 11 20:01:42 localhost journal[1181]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Apr 11 20:01:31 localhost chronyd[755]: System clock wrong by -11.934091 seconds, adjustment started
+Apr 11 20:01:31 localhost rsyslogd[736]: imjournal: sd_journal_get_cursor() failed: Cannot assign requested address [v8.39.0]
+Apr 11 20:01:31 localhost chronyd[755]: System clock was stepped by -11.934195 seconds
+Apr 11 20:01:41 localhost org.gnome.Shell.desktop[1450]: glamor: No eglstream capable devices found
+Apr 11 20:01:41 localhost org.gnome.Shell.desktop[1450]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 11 20:01:41 localhost org.gnome.Shell.desktop[1450]: > Warning:          Unsupported high keycode 372 for name <I372> ignored
+Apr 11 20:01:41 localhost org.gnome.Shell.desktop[1450]: >                   X11 cannot support keycodes above 255.
+Apr 11 20:01:41 localhost org.gnome.Shell.desktop[1450]: >                   This warning only shows for the first high keycode.
+Apr 11 20:01:41 localhost org.gnome.Shell.desktop[1450]: Errors from xkbcomp are not fatal to the X server
+Apr 11 20:01:41 localhost journal[1450]: g_dir_open_with_errno: assertion 'path != NULL' failed
+Apr 11 20:01:41 localhost journal[1450]: g_filename_to_utf8: assertion 'opsysstring != NULL' failed
+Apr 11 20:01:41 localhost journal[1450]: g_dir_open_with_errno: assertion 'path != NULL' failed
+Apr 11 20:01:41 localhost journal[1450]: g_filename_to_utf8: assertion 'opsysstring != NULL' failed
+Apr 11 20:01:42 localhost journal[1572]: GoaKerberosIdentityManager: Using polling for change notification for credential cache type 'KCM'
+Apr 11 20:01:42 localhost spice-vdagent[1608]: Cannot access vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0
+Apr 11 20:01:42 localhost gnome-session-binary[1360]: WARNING: App 'spice-vdagent.desktop' exited with code 1
+Apr 11 20:01:42 localhost journal[1583]: Error setting up rfkill: Could not open RFKILL control device, please verify your installation
+Apr 11 20:01:42 localhost journal[1586]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 11 20:01:42 localhost journal[1450]: Object St.Widget (0x557c1cdbf080), has been already deallocated — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Apr 11 20:01:42 localhost org.gnome.Shell.desktop[1450]: == Stack trace for context 0x557c1b316240 ==
+Apr 11 20:01:42 localhost org.gnome.Shell.desktop[1450]: #0   557c1b706de8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7fa40612e430 @ 15)
+Apr 11 20:01:42 localhost org.gnome.Shell.desktop[1450]: #1   7fff71daca50 b   self-hosted:261 (7fa4201c1dc0 @ 223)
+Apr 11 20:01:42 localhost org.gnome.Shell.desktop[1450]: #2   557c1b706d68 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:232 (7fa40612e3a0 @ 17)
+Apr 11 20:01:42 localhost org.gnome.Shell.desktop[1450]: #3   557c1b706ce8 i   /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org/extension.js:225 (7fa40612e280 @ 10)
+Apr 11 20:01:42 localhost org.gnome.Shell.desktop[1450]: #4   7fff71dadb90 b   resource:///org/gnome/gjs/modules/signals.js:128 (7fa4201c18b0 @ 386)
+Apr 11 20:01:42 localhost org.gnome.Shell.desktop[1450]: #5   557c1b706c30 i   resource:///org/gnome/shell/ui/layout.js:655 (7fa410104670 @ 533)
+Apr 11 20:01:42 localhost org.gnome.Shell.desktop[1450]: #6   7fff71daea90 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (7fa4201b0b80 @ 71)
+Apr 11 20:01:42 localhost org.gnome.Shell.desktop[1450]: #7   557c1b706bb0 i   resource:///org/gnome/shell/ui/layout.js:600 (7fa4101045e0 @ 90)
+Apr 11 20:01:42 localhost org.gnome.Shell.desktop[1450]: #8   7fff71dafa30 b   resource:///org/gnome/gjs/modules/signals.js:128 (7fa4201c18b0 @ 386)
+Apr 11 20:01:42 localhost org.gnome.Shell.desktop[1450]: #9   557c1b706b30 i   resource:///org/gnome/shell/ui/background.js:522 (7fa41010bdc0 @ 17)
+Apr 11 20:01:42 localhost journal[1450]: clutter_actor_destroy: assertion 'CLUTTER_IS_ACTOR (self)' failed
+Apr 11 20:01:43 localhost org.gnome.Shell.desktop[1450]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 11 20:01:43 localhost org.gnome.Shell.desktop[1450]: > Warning:          Unsupported maximum keycode 374, clipping.
+Apr 11 20:01:43 localhost org.gnome.Shell.desktop[1450]: >                   X11 cannot support keycodes above 255.
+Apr 11 20:01:43 localhost org.gnome.Shell.desktop[1450]: > Warning:          Unsupported high keycode 372 for name <I372> ignored
+Apr 11 20:01:43 localhost org.gnome.Shell.desktop[1450]: >                   X11 cannot support keycodes above 255.
+Apr 11 20:01:43 localhost org.gnome.Shell.desktop[1450]: >                   This warning only shows for the first high keycode.
+Apr 11 20:01:43 localhost org.gnome.Shell.desktop[1450]: Errors from xkbcomp are not fatal to the X server
+Apr 11 20:01:43 localhost journal[1450]: Failed to flip: Device or resource busy
+Apr 11 20:01:43 localhost kernel: [drm:vmw_stdu_crtc_page_flip [vmwgfx]] *ERROR* Page flip error -16.
+Apr 11 20:01:44 localhost vmware-user.desktop[1813]: vmware-user: could not open /proc/fs/vmblock/dev
+Apr 11 20:01:44 localhost vmware-user.desktop[1813]: vmware-user: could not open uinput device
+Apr 11 20:01:44 localhost journal[1614]: failed to get edid: unable to get EDID for output
+Apr 11 20:01:44 localhost journal[1181]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Apr 11 20:01:44 localhost journal[1614]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Apr 11 20:01:45 localhost journal[1450]: STACK_OP_ADD: window 0x1800001 already in stack
+Apr 11 20:01:45 localhost journal[1450]: STACK_OP_ADD: window 0x1800001 already in stack
+Apr 11 20:01:45 localhost journal[1817]: gtk_disable_setlocale() must be called before gtk_init()
+Apr 11 20:01:45 localhost journal[1806]: Failed to load /usr/lib64/gs-plugins-12/libgs_plugin_rpm-ostree.so: failed to open plugin /usr/lib64/gs-plugins-12/libgs_plugin_rpm-ostree.so: libdnf.so.1: cannot open shared object file: No such file or directory
+Apr 11 20:01:45 localhost libcanberra-login-sound.desktop[1811]: Failed to play sound: File or data not found
+Apr 11 20:01:45 localhost abrt-applet.desktop[1827]: abrt-applet: Can't connect to system DBus: Error calling StartServiceByName for org.freedesktop.problems: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ExecFailed: Failed to execute program org.freedesktop.problems: Permission denied
+Apr 11 20:01:48 localhost journal[1806]: Only 0 apps for recent list, hiding
+Apr 11 20:01:50 localhost journal[1062]: Connection to xwayland lost
+Apr 11 20:01:50 localhost journal[1129]: GChildWatchSource: Exit status of a child process was requested but ECHILD was received by waitpid(). See the documentation of g_child_watch_source_new() for possible causes.
+Apr 11 20:01:51 localhost systemd[955]: at-spi-dbus-bus.service: Failed with result 'exit-code'.
+Apr 11 20:01:52 localhost journal[1938]: backend-store.vala:434: Error preparing Backend 'telepathy': The name org.freedesktop.Telepathy.AccountManager was not provided by any .service files
+Apr 11 20:01:52 localhost journal[1953]: g_variant_new_string: assertion 'string != NULL' failed
+Apr 11 20:02:55 localhost chronyd[755]: Forward time jump detected!
+Apr 11 20:03:04 localhost org.gnome.Shell.desktop[1450]: Window manager warning: last_user_time (89734) is greater than comparison timestamp (89696).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Apr 11 20:03:04 localhost org.gnome.Shell.desktop[1450]: Window manager warning: W1 (user@local) appears to be one of the offending windows with a timestamp of 89734.  Working around...
+Apr 11 20:03:40 localhost org.gnome.Shell.desktop[1450]: Window manager warning: last_user_time (125356) is greater than comparison timestamp (125324).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Apr 11 20:03:40 localhost org.gnome.Shell.desktop[1450]: Window manager warning: W1 (user@local) appears to be one of the offending windows with a timestamp of 125356.  Working around...
+Apr 11 20:03:40 localhost org.gnome.Shell.desktop[1450]: Window manager warning: last_user_time (125593) is greater than comparison timestamp (125563).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Apr 11 20:03:40 localhost org.gnome.Shell.desktop[1450]: Window manager warning: W1 (user@local) appears to be one of the offending windows with a timestamp of 125593.  Working around...

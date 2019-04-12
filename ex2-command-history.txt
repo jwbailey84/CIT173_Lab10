@@ -1,0 +1,541 @@
+    1  ls
+    2  history
+    3  ls
+    4  man rm
+    5  rm data_file1.dat
+    6  ls
+    7  cd CIT173_Lab5/
+    8  ls
+    9  cat my-fstab.txt
+   10  dd if=/dev/random of=/mnt/data  bs=1024
+   11  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1024
+   12  sudo dd if=/dev/random of=/mnt/data/data_file1.dat bs=1024
+   13  ls
+   14  cd
+   15  ls
+   16  cd /mnt/data
+   17  ls
+   18  rm data_file1.dat 
+   19  cd
+   20  cd /mnt/data
+   21  sudo rm data_file1.dat 
+   22  sudo dd if=/dev/random of=/mnt/data/data_file1.dat bs=1024
+   23  man find
+   24  man cpio
+   25  mkdir CIT173_Lab6
+   26  sudo groupadd actors
+   27  sudo groupadd directors
+   28  sudo groupadd producers
+   29  sudo useradd -m mhamill
+   30  sudo passwd mhamill luke
+   31  sudo passwd mhamill
+   32  sudo usermod -c "Mark Hamill" mhamill
+   33  sudo usermod  -c -G actors mhamill
+   34  sudo usermod -c -G actors mhamill
+   35  sudo useradd -m hford
+   36  sudo passwd hford
+   37  sudo usermod -c "Harrison Ford" hford
+   38  sudo usermod -c -G actors hford
+   39  sudo useradd -m cfisher
+   40  sudo passwd cfisher
+   41  sudo usermod -c "Carrie Fisher" cfisher
+   42  sudo usermod -c -G actors cfisher
+   43  sudo useradd -m glucas
+   44  sudo passwd glucas
+   45  sudo usermod -c "George Lucas" glucas
+   46  sudo usermod -c -G directors glucas
+   47  sudo usermod -c -G producers glucas
+   48  sudo useradd -m gkurtz
+   49  sudo passwd gkurtz
+   50  sudo usermod -c -G producers gkurtz
+   51  cat /etc/passwd
+   52  cp /etc/passwd ~/CIT173_Lab6
+   53  cat /etc/group
+   54  cp /etc/group ~/CIT173_Lab6
+   55  ls /etc
+   56  cat /etc/group
+   57  sudo usermod -c -G producers gkurtz
+   58  cat /etc/group
+   59  mand usermod
+   60  man usermod
+   61  sudo usermod -a -G producers gkurtz
+   62  cat /etc/group
+   63  sudo usermod -a -G producers glucas
+   64  cat /etc/group
+   65  sudo usermod -a -G directors glucas
+   66  sudo usermod -a -G actors hford
+   67  sudo usermod -a -G actors mhamill
+   68  sudo usermod -a -G actors cfisher
+   69  cat /etc/group
+   70  cp /etc/group ~/CIT173_Lab6
+   71  ls /etc
+   72  ls
+   73  cd CIT173_Lab6
+   74  ls
+   75  ls -al ~/CIT173_Lab6
+   76  history > ~/CIT173_Lab6/ex1-command-history.txt
+   77  ls -al ~/CIT173_Lab6
+   78  wget https://github.com/RenoTechnologyAcademy/CIT173_Lab6_Files/archive/master.tar.gz
+   79  ls
+   80  cd
+   81  cd CIT173_Lab6
+   82  tar -xvzf master.tar.gz
+   83  ls
+   84  cd CIT173_Lab6_Files-master/
+   85  ls
+   86  cd
+   87  cd /var
+   88  mkdir StarWars
+   89  sudo mkdir StarWars
+   90  ls
+   91  sudo mkdir /StarWars/finance
+   92  cd StarWars
+   93  sudo mkdir finance
+   94  ls
+   95  sudo mkdir directing
+   96  sudo mkdir creative
+   97  ls
+   98  sudo chmod 777 /var/StarWars/
+   99  ls
+  100  cd
+  101  cd CIT173_Lab6
+  102  ls
+  103  cd CIT173_Lab6_Files-master/
+  104  man mv
+  105  ls
+  106  mv star-wars-budget.txt /var/StarWars/finance
+  107  sudo chmod 777 *
+  108  mv star-wars-budget.txt /var/StarWars/finance
+  109  cd /var
+  110  sudo chmod 777 *
+  111  cd StarWars
+  112  sudo chmod 777 *
+  113  cd
+  114  ls
+  115  cd CIT173_Lab6
+  116  ls
+  117  cd CIT173_Lab6_Files-master/
+  118  mv star-wars-budget.txt /var/StarWars/finance
+  119  mv star-wars-journal.txt /var/StarWars/directing
+  120  mv star-wars-script.txt /var/StarWars/creative
+  121  ls
+  122  cd
+  123  ls
+  124  cd var
+  125  cd /var
+  126  ls
+  127  cd StarWars
+  128  ls -all
+  129  sudo chown -R gkurtz:producers finance/
+  130  ls
+  131  ls -all
+  132  sudo chmod -R 750 finance/
+  133  ls -all
+  134  sudo chmod -R glucas:directors directing/
+  135  sudo chown -R glucas:directors directing/
+  136  ls
+  137  ls -all
+  138  sudo chmod -R 755 directing/
+  139  ls -all
+  140  sudo chown -R glucas:actors creative/
+  141  sudo chmod -R 750 creative/
+  142  ls -all
+  143  history > ~/CIT173_Lab6/ex2-command-history.txt
+  144  su mhamill
+  145  su gkurtz
+  146  su glucas
+  147  cd /var
+  148  man tar
+  149  sudo tar -cvf StarWars.tar StarWars/
+  150  cp StarWars.tar ~/CIT173_Lab6
+  151  cd ~/CIT173_Lab6
+  152  ls -all
+  153  git init
+  154  git remote add origin https://github.com/jwbailey84/CIT173_Lab6.git
+  155  git add --all
+  156  git commit -m "Lab assignment 6"
+  157  git push origin master
+  158  git remote add origin https://github.com/jwbailey84/CIT173_Lab6.git
+  159  git push origin master
+  160  git remote add origin https://github.com/jbailey84/CIT173_Lab6.git
+  161  git push origin master
+  162  git remote add origin https://github.com/jwbailey84/CIT173_Lab6.git
+  163  git push origin master
+  164  ls
+  165  ls -all
+  166  sudo rm -rf .git/
+  167  git init
+  168  git remote add origin https://github.com/jwbailey84/CIT173_Lab6.git
+  169  git add -all
+  170  git add --all
+  171  git commit -m "Lab assignment 6"
+  172  git push origin master
+  173  sudo rm -rf .git/
+  174  git init
+  175  man git remote
+  176  git remote add origin https://github.com/jwbailey84/CIT173_Lab6.git
+  177  git add --all
+  178  git push origin master
+  179  git commit -m "Lab assignment 6"
+  180  git push origin master
+  181  sudo rm -rf .git/
+  182  git init
+  183  git add --all
+  184  git commit -m
+  185  git commit
+  186  git commit -m "Lab assignment 6"
+  187  git push origin master
+  188  sudo rm -rf .git/
+  189  git init
+  190  git add --all
+  191  git commit -m "Lab6"
+  192  git push origin master
+  193  git remote add origin https://github.com/jwbailey84/CIT173_Lab6.git
+  194  git push origin master
+  195  runlevel
+  196  shutdown
+  197  pwd
+  198  cd
+  199  cwd
+  200  wd
+  201  man ln
+  202  man nl
+  203  ls
+  204  cd /CIT173_Lab6
+  205  cd CIT173_Lab6
+  206  ls
+  207  nl passwd
+  208  man nl
+  209  man wc
+  210  man df
+  211  man wc
+  212  wc passwd
+  213  top
+  214  man top
+  215  man procs
+  216  man crp
+  217  man ps
+  218  man modprobe
+  219  man lsmod
+  220  man insmod
+  221  man loadmod
+  222  man grep
+  223  man sed
+  224  man find
+  225  man search
+  226  man find
+  227  man grep
+  228  man sed
+  229  man find
+  230  man del
+  231  man rm
+  232  man tail
+  233  man mkfs
+  234  man usermod
+  235  man chmod
+  236  man procfs
+  237  man sysfs
+  238  man yum
+  239  man rmp
+  240  man rpm
+  241  man apt
+  242  man yum
+  243  man rpm
+  244  man dpkg
+  245  man yum
+  246  man tar
+  247  cd
+  248  cd /
+  249  ls
+  250  cd ~
+  251  ls
+  252  cd \
+  253  cd /
+  254  ls
+  255  cd etc
+  256  ls
+  257  less
+  258  ls
+  259  man ls
+  260  ls -l
+  261  man ls
+  262  ls -m
+  263  man ls
+  264  ls -d
+  265  ls
+  266  cat group
+  267  ls
+  268  man ls
+  269  ls -C
+  270  ls -1
+  271  ls -4
+  272  ls lis
+  273  man ls
+  274  ls -all
+  275  man ls
+  276  ls -d
+  277  cd .
+  278  ls
+  279  cd init.d
+  280  ls
+  281  cd
+  282  cd rcS.d
+  283  cd /
+  284  ls
+  285  cd etc
+  286  ls
+  287  cd rcS.d
+  288  cd systemd
+  289  ls
+  290  cd ..
+  291  ls
+  292  cd fstab
+  293  ls fstab
+  294  cat fstab
+  295  cd /
+  296  ls
+  297  cd ~
+  298  /
+  299  ls
+  300  cd CIT173_Lab5
+  301  ls
+  302  cd ..
+  303  cd CIT173_Lab^
+  304  cd CIT173_Lab6
+  305  ls
+  306  cd
+  307  clone
+  308  git clone
+  309  man nl
+  310  man ln
+  311  man df
+  312  man git
+  313  man git-clone
+  314  git-clone
+  315  man grep
+  316  man sed
+  317  man find
+  318  git-clone https:github.com/jbailey84/CIT173_Lab4.git
+  319  man grep
+  320  man
+  321  man cat
+  322  man replace
+  323  ?
+  324  /
+  325  git-clone https:github.com/jwbailey84/CIT173_Lab4.git
+  326  man git
+  327  clone https:github.com/jwbailey84/CIT173_Lab4.git
+  328  git https:github.com/jwbailey84/CIT173_Lab4.git
+  329  man mkfs
+  330  man chmod
+  331  man chgroup
+  332  man chmod
+  333  ls
+  334  cd CIT173_Lab%
+  335  cd CIT173_Lab5
+  336  ls
+  337  cd CIT173_Lab^
+  338  cd CIT173_Lab6
+  339  ls
+  340  cd
+  341  cd CIT173_Lab6
+  342  ls
+  343  cat ex2-command-history.txt 
+  344  man chown
+  345  cat ex2-command-history.txt 
+  346  man chmod
+  347  man chown
+  348  man replace
+  349  man grep
+  350  clone
+  351  git-clone
+  352  man git-clone
+  353  git clone
+  354  git clone https:/github.com/jwbailey84/CIT173
+  355  _Lab4.git
+  356  git clone https:/github.com/jwbailey84/CIT173_Lab4.git
+  357  ls
+  358  cd CIT173_Lab6_Files-master/
+  359  ls
+  360  cd ..
+  361  man grep
+  362  man find
+  363  man sed
+  364  ls
+  365  sudo mkdir /mnt/manjaro
+  366  sudo mount /dev/sdc1 /mnt/manjaro
+  367  ls
+  368  cd /mnt/manjaro
+  369  ls
+  370  cd boot
+  371  ls
+  372  cat grub
+  373  cd grub
+  374  sudo less grub
+  375  ls
+  376  sudo less grub.cfg
+  377  man less
+  378  less
+  379  sudo less grub.cfg
+  380  ~
+  381  ls
+  382  cd ~
+  383  sudo umount /mnt/manjaro
+  384  sudo vi /boot/grub/grub.cfg
+  385  cd boot
+  386  ls
+  387  cd
+  388  ls
+  389  cd/
+  390  cd..
+  391  ls
+  392  cd..
+  393  ls
+  394  cd/
+  395  cd`
+  396  q
+  397  `
+  398  cd boot
+  399  cd /boot
+  400  ls
+  401  sudo vi /boot/grub2/grub.cfg
+  402  initd 6
+  403  sudo initd 6
+  404  sudo init 6
+  405  sudo vi /boot/grub2.grub.cfg
+  406  sudo vi /boot/grub2/grub.cfg
+  407  sudo init 6
+  408  sudo vi /boot/grub2/grub.cfg
+  409  sudo less /boot/grub2/grub.cfg
+  410  sudo less -l /boot/grub2/grub.cfg
+  411  sudo less -l /boot/grub2
+  412  sudo less --l /boot/grub2
+  413  sudo less  /boot/grub2
+  414  sudo less /boot/grub2
+  415  sudo ls -l /boot/grub2
+  416  man cp
+  417  sudo cp /boot/grub2/grub.cfg ~/CIT173_Lab7
+  418  ls
+  419  cd CIT173_Lab7
+  420  ls
+  421  ~/CIT173_Lab7
+  422  git init
+  423  git remote add origin https://github.com/jwbailey84/CIT173_Lab7.git
+  424  git add --all
+  425  git commit -m "Lab Assignment 7"
+  426  git push origin master
+  427  power off
+  428  sudo nano /etc/systemd/journald.conf
+  429  sudo systemctl restart systemd-journald
+  430  sudo yum -y install rsyslog
+  431  systemctl enable rsyslog
+  432  systemctl start rsyslog
+  433  ls
+  434  mkdir CIT173_Lab10
+  435  sudo tail -n 25 /var/log/messages > ~/CIT173_Lab10/kernal-log-last-25.txt
+  436  man logger
+  437  logger --journald <<end
+  438  message=Help! I've fallend and I can't get up! end
+  439  man logger
+  440  end
+  441  logger --journald <<end
+  442  message=Help! I've fallend and I can't get up! end
+  443  man logger
+  444  end
+  445  journaldctl | tail -n 50 | less
+  446  journalctl | tail -n 50 | less
+  447  logger --journald <<end
+  448  message=Help! I've fallend and I can't get up! end
+  449  man logger
+  450  end
+  451  logger --journald <<end
+  452  message=Help! I've fallend and I can't get up! end
+  453  logger --journald <<end
+  454  message=Help! I've fallend and I can't get up! end
+  455  logger --journald <<end
+  456  message=Help! I've fallend and I can't get up! end
+  457  logger --journald <<end
+  458  message=Help! I've fallend and I can't get up! end
+  459  journalctl | tail -n 50 | less
+  460  journalctl | tail -n 50 | less
+  461  journalctl | tail -n 50 | less
+  462  journalctl | tail -n 50 | less
+  463  logger --journald <<end
+  464  message=Help! I've fallend and I can't get up! end
+  465  journalctl | tail -n 50 | less
+  466  logger --journald <<end
+  467  message=Help! I've fallend and I can't get up! end
+  468  logger --journald <<end
+  469  MESSAGE=Help! I've fallend and I can't get up! end
+  470  journalctl | tail -n 50 | less
+  471  logger --journald <<end
+  472  MESSAGE=Help! I've fallend and I can't get up!
+  473  end
+  474  journalctl | tail -n 50 | less
+  475  journalctl | tail -n 50 > ~/CIT173_Lab10/my-system-log.txt
+  476  rsyslog
+  477  ls
+  478  cd
+  479  cd..
+  480  ls
+  481  cp /etc/rsyslog.conf ~/CIT173_Lab10/rsyslog.conf
+  482  sudo nano /etc/rsyslog.conf
+  483  ls /var/log
+  484  sudo nano /etc/rsyslog.conf
+  485  restart
+  486  power off
+  487  reboot
+  488  ls
+  489  ls ~/CIT173_Lab10
+  490  ls /var/
+  491  ls /var/log
+  492  ls
+  493  ls ~/CIT173_Lab10
+  494  cp /etc/rsyslog.conf ~/CIT173_Lab10/new-rsyslog.conf
+  495  ls ~/CIT173_Lab10
+  496  reboot
+  497  ls ~/CIT173_Lab10
+  498  ls /var/
+  499  ls /var/log
+  500  cp /var/log/all-info.log ~/CIT173_Lab10
+  501  sudo cp /var/log/all-info.log ~/CIT173_Lab10
+  502  sudo cp /var/log/all-warnings.log ~/CIT173_Lab10
+  503  ls ~/CIT173_Lab10
+  504  set time
+  505  settime
+  506  man set time
+  507  sudo hwclock -w
+  508  sudo hwlock --show
+  509  sudo hwclock --show
+  510  date
+  511  date -set="01/JAN/1970/00:00:00"
+  512  sudo date --set="01/JAN/1970/00:00:00"
+  513  sudo date --set="01 JAN 1970 00:00:00"
+  514  date
+  515  ntpd
+  516  sudo ntpd
+  517  sudo ntp
+  518  date
+  519  ls
+  520  cd..
+  521  cd/
+  522  cd
+  523  ls
+  524  cd /var/
+  525  ls
+  526  cd /lib/
+  527  ls
+  528  cd
+  529  ls
+  530  cd /etc/
+  531  ls
+  532  sudo nano ntp.conf
+  533  sysctl
+  534  sysctl ntpd
+  535  sudo sysctl start ntpd
+  536  sudo systemctl start ntpd
+  537  sudo systemctl status ntpd
+  538  date
+  539  ls
+  540  cp ntp.conf ~/CIT173_Lab10/ntp.conf
+  541  history > ~/CIT173_Lab10/ex2-command-history.txt
